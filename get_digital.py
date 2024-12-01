@@ -53,3 +53,5 @@ if __name__ == "__main__":
     clock = DigitalClock()
     clock.show()
     sys.exit(app.exec_())
+
+#thanks
