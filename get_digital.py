@@ -27,7 +27,7 @@ class DigitalClock(QWidget):
 
     
         
-        base_path = os.path.expanduser("~/Downloads/ds_digital")
+        base_path = os.path.expanduser("E:\.Soto\python\digital_clock")
         font_file = "DS-DIGIT.ttf"
         font_path = os.path.join(base_path,font_file)
         font_id = QFontDatabase.addApplicationFont(font_path)
